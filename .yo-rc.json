@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Bootstrap",
+    "packageVersion": "0.1.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "sirreal",
+    "githubRepository": "bootstrap-intro"
+  }
+}
