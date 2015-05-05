@@ -1,10 +1,18 @@
-
 # Bootstrap
 
-From the terminal, pop in:
+> Bootstrap es el _framework_ HTML, CSS y JS más popular
+> para diseñar proyectos web _responsivos_ y _móvil-primero_
 
-  ```yo reveal:slide "Slide Title"```
+--
 
-Available options:
+## ¿Responsive?
 
- ```--markdown --attributes --notes```
+La página se adapta al tamaño del dispositivo.
+
+## ¿Móvil-primero?
+
+El diseño esta pensado primero para los moviles.
+
+Estos Usuarios con menos recursos, pantalla, ancho de banda...
+
+Se añade funcionalidad en lugar de quitar
