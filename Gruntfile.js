@@ -95,6 +95,7 @@ module.exports = function(grunt) {
     var indexTemplate, examples;
 
     var path = require('path');
+    var escape = require('escape-html');
 
     indexTemplate = grunt.file.read('templates/_ex.html');
     examples = grunt.file.expand({cwd: '_ex'}, '**/*.html');
@@ -103,7 +104,8 @@ module.exports = function(grunt) {
       var html = grunt.template.process(indexTemplate, {
         data: {
           title: f,
-          content: content
+          content: content,
+          escapedContent: escape(content)
         }
       });
       grunt.file.write(path.join('ex', f), html);

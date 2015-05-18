@@ -9,18 +9,36 @@
 ---
 
 
-# ¿Responsive?
+## ¿Responsive?
 
 La página se adapta al tamaño del dispositivo.
 
-Elimina/reduce scroll horizontal.
+## ¿Móvil-primero?
 
-# ¿Móvil-primero?
+La página se destina pantallas pequeñas. _Mejora_ para pantallas más grandes.
 
-La página _base_ es para pantallas pequeñas.
-Según agranda la pantalla, va "mejorando".
+Note:
+Móviles disponen de menos recursos
 
-Móviles disponen de menos recursos: pantslla, ancho de banda, límites de descarga…
+---
+
+# ¿Qué aporta?
+
+Note:
+Mucho
+
+Conjunto interesante
+
+---
+
+
+## Grid
+
+12 columnas responsivas
+
+[Columnas](/ex/gridlayout.html)
+
+[Ejemplo](/ex/gridsample.html)
 
 
 ---
@@ -50,7 +68,22 @@ Móviles disponen de menos recursos: pantslla, ancho de banda, límites de desca
 ---
 
 
-# Componentes
+# Demo
 
+---
 
+# Consejos
 
+---
+
+## No mezclar distribución con presentación
+
+```html
+<div class="container well">
+  <div class="row">
+    <div class="col-xs-6">
+      MALO
+    </div>
+  </div>
+</div>
+```

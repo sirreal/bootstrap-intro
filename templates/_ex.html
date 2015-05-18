@@ -4,13 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title><%= title %></title>
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideStylesheet" disabled>
+    <!-- <link rel="stylesheet" href="/css/gcp/desert.css"> -->
   </head>
   <body>
     <%= content %>
+    <div class="container no-pesticide">
+      <style scoped>
+        .no-pesticide, .no-pesticide * { outline: 0 !important; }
+      </style>
+      <hr>
+      <a class="btn btn-info" id="jsPesticideOn">Pesticide</a>
+      <pre class="prettyprint lang-html"><%= escapedContent %></pre>
+    </div>
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/gcp/run_prettify.js"></script>
+    <script src="/bower_components/holderjs/holder.min.js"></script>
+    <script>
+      jQuery('#jsPesticideOn').on('click', function() {
+        var ss = jQuery('#jsPesticideStylesheet');
+        ss.attr('disabled', !ss.attr('disabled'));
+      });
+    </script>
   </body>
 </html>
