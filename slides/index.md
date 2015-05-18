@@ -82,8 +82,19 @@ Conjunto interesante
 <div class="container well">
   <div class="row">
     <div class="col-xs-6">
-      MALO
+      MAL .container.well
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="well">
+    <div class="row">
+      <div class="col-xs-6">
+        BIEN .container > .well
+      </div>
     </div>
   </div>
 </div>
 ```
+
+[Ejemplo](/ex/mezclar.html)
