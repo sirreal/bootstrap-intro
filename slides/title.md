@@ -6,43 +6,26 @@
 [getbootstrap.com](http://getbootstrap.com)
 
 
----
-
-
-## ¿Responsive?
-
-La página se adapta al tamaño del dispositivo.
-
-## ¿Móvil-primero?
-
-La página se destina pantallas pequeñas. _Mejora_ para pantallas más grandes.
-
-Note:
-Móviles disponen de menos recursos
 
 ---
 
-# ¿Qué aporta?
+Creación en Twitter
 
-Note:
-Mucho
+* Mark Otto [@mdo](https://twitter.com/mdo) ([github](https://github.com))
+* Jacob Thornton [@fat](https://twitter.com/fat) ([medium](https://medium.com/))
 
-Conjunto interesante
+[Proyecto open source](https://github.com/twbs/bootstrap)
 
----
+* &gt; 11.000 revisiones
+* &gt; 30 versiones
+* &gt; 600 participantes (desarrolladores)
+* ¿¿ Uso ?? &gt; 100.000 páginas
 
+Actualmente v3.3.4
 
-## Grid
-
-12 columnas responsivas
-
-[Columnas](/ex/gridlayout.html)
-
-[Ejemplo](/ex/gridsample.html)
-
+v4 próximamente...
 
 ---
-
 
 # Ejemplos
 
@@ -58,7 +41,7 @@ Conjunto interesante
 ---
 
 
-# Uso 
+# Uso
 
 * [Observatoire de la Plasturgie](http://www.observatoire-plasturgie.com/)
 * [Horizon Entrepreneurs](http://blog.horizonentrepreneurs.fr/)

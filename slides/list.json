@@ -1,3 +1,17 @@
 [
-    "index.md"
+  "title.md",
+  [
+    "que-aporta/que-aporta.md",
+    "que-aporta/responsive.md",
+    "que-aporta/movil-primero.md"
+  ],
+  [
+    "componentes/componentes.md",
+    "componentes/grid.md",
+    "componentes/form-button.md"
+  ],
+  [
+    "ejemplos/ejemplos.md",
+    "ejemplos/personal.md"
+  ]
 ]
