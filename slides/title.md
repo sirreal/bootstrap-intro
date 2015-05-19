@@ -16,40 +16,12 @@ Creación en Twitter
 
 [Proyecto open source](https://github.com/twbs/bootstrap)
 
-* &gt; 11.000 revisiones
-* &gt; 30 versiones
-* &gt; 600 participantes (desarrolladores)
-* ¿¿ Uso ?? &gt; 100.000 páginas
-
-Actualmente v3.3.4
-
-v4 próximamente...
+* 11.000+ revisiones
+* 600+ contribuyentes
+* 30+ versiones (v3.3.4)
+* 100.000+ páginas...
 
 ---
-
-# Ejemplos
-
-[Galería: Bootstrap Expo](http://expo.getbootstrap.com/)
-
-## Bootsrap base
-
-* [MariaDB](https://mariadb.org/)
-* [Regex Crossword](http://regexcrossword.com/)
-* [Starbound Map](http://www.starboundmap.com/)
-
-
----
-
-
-# Uso
-
-* [Observatoire de la Plasturgie](http://www.observatoire-plasturgie.com/)
-* [Horizon Entrepreneurs](http://blog.horizonentrepreneurs.fr/)
-* [La Grande Chancellerie de la Légion d'honneur](http://www.legiondhonneur.fr/fr)
-
-
----
-
 
 # Demo
 

@@ -1,6 +1,6 @@
 ## Formularios & Botones
 
-12 columnas responsivas
+Formularios son dificiles.
 
 [Columnas](/ex/gridlayout.html)
 
