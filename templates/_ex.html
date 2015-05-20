@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= title %></title>
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" id="jsBootstrapCSS">
-    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideCSS" disabled>
+    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideCSS">
     <!-- <link rel="stylesheet" href="/css/gcp/desert.css"> -->
   </head>
   <body>
+    <style>
+      .no-pesticide, .no-pesticide * { outline: 0 !important; }
+    </style>
     <%= content %>
     <div class="container no-pesticide">
-      <style scoped>
-        .no-pesticide, .no-pesticide * { outline: 0 !important; }
-      </style>
       <hr>
       <button class="btn btn-danger" id="jsPesticideToggle" type="button">Pesticide <span class="glyphicon glyphicon-off"></span></button>
       <button class="btn btn-primary" id="jsBootstrapToggle" type="button">Bootstrap <span class="glyphicon glyphicon-off"></span></button>
@@ -25,13 +25,28 @@
     <script src="/js/gcp/run_prettify.js"></script>
     <script src="/bower_components/holderjs/holder.min.js"></script>
     <script>
+      'use strict';
+      var pesticideCSS = document.getElementById('jsPesticideCSS');
+      var bootstrapCSS = document.getElementById('jsBootstrapCSS');
+
+      function toggleCSS(stylesheetElem) {
+
+        if (stylesheetElem.disabled) {
+          jQuery(stylesheetElem).attr('disabled', false);
+          stylesheetElem.disabled = false;
+        } else {
+          jQuery(stylesheetElem).attr('disabled', true);
+          stylesheetElem.disabled = true;
+        }
+      }
+
+      toggleCSS(pesticideCSS);
+
       jQuery('#jsPesticideToggle').on('click', function() {
-        var ss = jQuery('#jsPesticideCSS');
-        ss.attr('disabled', !ss.attr('disabled'));
+        toggleCSS(pesticideCSS);
       });
       jQuery('#jsBootstrapToggle').on('click', function() {
-        var ss = jQuery('#jsBootstrapCSS');
-        ss.attr('disabled', !ss.attr('disabled'));
+        toggleCSS(bootstrapCSS);
       });
     </script>
   </body>
