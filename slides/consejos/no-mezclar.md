@@ -1,22 +1,24 @@
-## No mezclar distribución con presentación
+Separar distribución con presentación
 
-```html
-<div class="container well">
-  <div class="row">
-    <div class="col-xs-6">
-      MAL .container.well
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="well">
-    <div class="row">
-      <div class="col-xs-6">
-        BIEN .container > .well
-      </div>
-    </div>
-  </div>
-</div>
-```
-
-[Ejemplo](/ex/mezclar.html)
+<table>
+  <thead>
+    <tr>
+      <th>Distribución:</th>
+      <th>Presentación:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`.container`</td>
+      <td>`.well`</td>
+    </tr>
+    <tr>
+      <td>`.row`</td>
+      <td>`.btn`</td>
+    </tr>
+    <tr>
+      <td>`.col-md-4`</td>
+      <td>`.h1`</td>
+    </tr>
+  </tbody>
+</table>

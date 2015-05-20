@@ -1,4 +1,4 @@
-## Bootsrap base
+## Bootsrap en uso
 
 * [Galería: Bootstrap Expo](http://expo.getbootstrap.com/)
 * [MariaDB](https://mariadb.org/)
