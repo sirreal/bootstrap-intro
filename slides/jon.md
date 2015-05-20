@@ -2,7 +2,13 @@ Jon Surrell
 
 [jonsurrell.com](http://jonsurrell.com)
 
-* Desarrollo en [Click Army](https://www.clickarmy.net/)
-* Auto-didacta
-* Juego a Ultimate Frisbee
-* Llevo Crocs®
+<ul>
+  <li>Desarrollo en [Click Army](https://www.clickarmy.net/)</li>
+  <li>Auto-didacta</li>
+  <li>Juego a Ultimate Frisbee</li>
+  <li class="fragment">Llevo Crocs®</li>
+</ul>
+
+Note:
+Crocs!
+Funcional.

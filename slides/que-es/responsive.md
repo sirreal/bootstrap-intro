@@ -1,4 +1,4 @@
-# Responsive
+# Responsivo
 
 Experiencia adaptada al dispositivo
 
