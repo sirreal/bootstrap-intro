@@ -62,7 +62,14 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            src: ['slides/**', 'bower_components/**', 'js/**', 'css/*.css', 'ex/**'],
+            src: [
+              'slides/**',
+              'bower_components/**',
+              'js/**',
+              'css/*.css',
+              'img/**',
+              'ex/**'
+            ],
             dest: 'dist/'
           }, {
             expand: true,
@@ -134,7 +141,7 @@ module.exports = function(grunt) {
   });
   grunt.registerTask('test', '*Lint* javascript and coffee files.', ['jshint']);
   grunt.registerTask('serve', 'Run presentation locally and start watch process (living document).', ['buildIndex', 'sass', 'doWatch']);
-  grunt.registerTask('dist', 'Save presentation files to *dist* directory.', ['test', 'sass', 'buildIndex', 'copy']);
+  grunt.registerTask('dist', 'Save presentation files to *dist* directory.', ['test', 'sass', 'buildIndex', 'buildEx', 'copy']);
   grunt.registerTask('deploy', 'Deploy to Github Pages', ['dist', 'buildcontrol']);
   grunt.registerTask('doWatch', ['browserSync', 'watch']);
   grunt.registerTask('default', ['test', 'serve']);

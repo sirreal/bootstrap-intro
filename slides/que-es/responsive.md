@@ -4,7 +4,7 @@ Experiencia adaptada al dispositivo
 
 Diseños "escalonados"
 
-Una (de muchas) soluciones al "problema móvil"
+Una (de muchas) soluciones para el "problema móvil"
 
 Note:
 XS

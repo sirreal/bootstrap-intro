@@ -1,7 +1,8 @@
 [
   "presentacion.md",
+  "jon.md",
+  "contenido.md",
   "creacion.md",
-  "temas.md",
 
   "que-es/que.md",
   "que-es/framework.md",
@@ -54,5 +55,8 @@
     "uso/uso.md",
     "uso/base.html",
     "uso/demo.md"
-  ]
+  ],
+
+  "gracias.md",
+  "enlaces.md"
 ]
