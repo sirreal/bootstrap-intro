@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mezclar.html</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" id="jsBootstrapCSS">
+    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideCSS">
+    <!-- <link rel="stylesheet" href="/css/gcp/desert.css"> -->
+  </head>
+  <body>
+    <style>
+      .no-pesticide, .no-pesticide * { outline: 0 !important; }
+    </style>
+    <div class="container well">
+  <div class="row">
+    <div class="col-xs-6">
+      MAL .container.well
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="well">
+    <div class="row">
+      <div class="col-xs-6">
+        BIEN .container > .well
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="container no-pesticide">
+      <hr>
+      <button class="btn btn-danger" id="jsPesticideToggle" type="button">Pesticide <span class="glyphicon glyphicon-off"></span></button>
+      <button class="btn btn-primary" id="jsBootstrapToggle" type="button">Bootstrap <span class="glyphicon glyphicon-off"></span></button>
+      <pre class="prettyprint lang-html">&lt;div class=&quot;container well&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-xs-6&quot;&gt;
+      MAL .container.well
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;well&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-xs-6&quot;&gt;
+        BIEN .container &gt; .well
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</pre>
+    </div>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/gcp/run_prettify.js"></script>
+    <script src="/bower_components/holderjs/holder.min.js"></script>
+    <script>
+      'use strict';
+      var pesticideCSS = document.getElementById('jsPesticideCSS');
+      var bootstrapCSS = document.getElementById('jsBootstrapCSS');
+
+      function toggleCSS(stylesheetElem) {
+
+        if (stylesheetElem.disabled) {
+          jQuery(stylesheetElem).attr('disabled', false);
+          stylesheetElem.disabled = false;
+        } else {
+          jQuery(stylesheetElem).attr('disabled', true);
+          stylesheetElem.disabled = true;
+        }
+      }
+
+      toggleCSS(pesticideCSS);
+
+      jQuery('#jsPesticideToggle').on('click', function() {
+        toggleCSS(pesticideCSS);
+      });
+      jQuery('#jsBootstrapToggle').on('click', function() {
+        toggleCSS(bootstrapCSS);
+      });
+    </script>
+  </body>
+</html>

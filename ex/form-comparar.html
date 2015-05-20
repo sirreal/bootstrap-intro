@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>form-comparar.html</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" id="jsBootstrapCSS">
+    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideCSS">
+    <!-- <link rel="stylesheet" href="/css/gcp/desert.css"> -->
+  </head>
+  <body>
+    <style>
+      .no-pesticide, .no-pesticide * { outline: 0 !important; }
+    </style>
+    <div class="container">
+  <form>
+    <div class="form-group">
+      <label for="texta">text input: </label>
+      <input class="form-control" id="texta" type="text" name="text" placeholder="text">
+    </div>
+    <div class="form-group">
+      <label for="passworda">password input: </label>
+      <input class="form-control" id="passworda" type="password" name="password" placeholder="password">
+    </div>
+
+    <div class="form-group">
+      <label class="control-label" for="radioa1">
+        <input id="radioa1" type="radio" name="radioa">
+        Radio A1
+      </label>
+      <label class="control-label" for="radioa1">
+        <input id="radioa2" type="radio" name="radioa">
+        Radio A2
+      </label>
+    </div>
+
+
+    <div class="form-group">
+      <label for="selecta">selecta</label>
+      <select class="form-control" id="selecta" name="select">
+        <option>opt1</option>
+        <option>opt2</option>
+        <option>opt3</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="select-multia">select-multia</label>
+      <select class="form-control" id="select-multia" name="select" multiple>
+        <option>opt1</option>
+        <option>opt2</option>
+        <option>opt3</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="textareaa">textareaa</label>
+      <textarea class="form-control" name="textareaa" placeholder="textarea"></textarea>
+    </div>
+
+    <div class="form-group">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+
+  </form>
+</div>
+
+
+    <div class="container no-pesticide">
+      <hr>
+      <button class="btn btn-danger" id="jsPesticideToggle" type="button">Pesticide <span class="glyphicon glyphicon-off"></span></button>
+      <button class="btn btn-primary" id="jsBootstrapToggle" type="button">Bootstrap <span class="glyphicon glyphicon-off"></span></button>
+      <pre class="prettyprint lang-html">&lt;div class=&quot;container&quot;&gt;
+  &lt;form&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label for=&quot;texta&quot;&gt;text input: &lt;/label&gt;
+      &lt;input class=&quot;form-control&quot; id=&quot;texta&quot; type=&quot;text&quot; name=&quot;text&quot; placeholder=&quot;text&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label for=&quot;passworda&quot;&gt;password input: &lt;/label&gt;
+      &lt;input class=&quot;form-control&quot; id=&quot;passworda&quot; type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;password&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label class=&quot;control-label&quot; for=&quot;radioa1&quot;&gt;
+        &lt;input id=&quot;radioa1&quot; type=&quot;radio&quot; name=&quot;radioa&quot;&gt;
+        Radio A1
+      &lt;/label&gt;
+      &lt;label class=&quot;control-label&quot; for=&quot;radioa1&quot;&gt;
+        &lt;input id=&quot;radioa2&quot; type=&quot;radio&quot; name=&quot;radioa&quot;&gt;
+        Radio A2
+      &lt;/label&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label for=&quot;selecta&quot;&gt;selecta&lt;/label&gt;
+      &lt;select class=&quot;form-control&quot; id=&quot;selecta&quot; name=&quot;select&quot;&gt;
+        &lt;option&gt;opt1&lt;/option&gt;
+        &lt;option&gt;opt2&lt;/option&gt;
+        &lt;option&gt;opt3&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label for=&quot;select-multia&quot;&gt;select-multia&lt;/label&gt;
+      &lt;select class=&quot;form-control&quot; id=&quot;select-multia&quot; name=&quot;select&quot; multiple&gt;
+        &lt;option&gt;opt1&lt;/option&gt;
+        &lt;option&gt;opt2&lt;/option&gt;
+        &lt;option&gt;opt3&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label for=&quot;textareaa&quot;&gt;textareaa&lt;/label&gt;
+      &lt;textarea class=&quot;form-control&quot; name=&quot;textareaa&quot; placeholder=&quot;textarea&quot;&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;input class=&quot;btn btn-primary&quot; type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+    &lt;/div&gt;
+
+  &lt;/form&gt;
+&lt;/div&gt;
+
+</pre>
+    </div>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/js/gcp/run_prettify.js"></script>
+    <script src="/bower_components/holderjs/holder.min.js"></script>
+    <script>
+      'use strict';
+      var pesticideCSS = document.getElementById('jsPesticideCSS');
+      var bootstrapCSS = document.getElementById('jsBootstrapCSS');
+
+      function toggleCSS(stylesheetElem) {
+
+        if (stylesheetElem.disabled) {
+          jQuery(stylesheetElem).attr('disabled', false);
+          stylesheetElem.disabled = false;
+        } else {
+          jQuery(stylesheetElem).attr('disabled', true);
+          stylesheetElem.disabled = true;
+        }
+      }
+
+      toggleCSS(pesticideCSS);
+
+      jQuery('#jsPesticideToggle').on('click', function() {
+        toggleCSS(pesticideCSS);
+      });
+      jQuery('#jsBootstrapToggle').on('click', function() {
+        toggleCSS(bootstrapCSS);
+      });
+    </script>
+  </body>
+</html>

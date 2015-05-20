@@ -1,4 +1,62 @@
 [
-    "index.md",
-    "que-es.md"
+  "presentacion.md",
+  "jon.md",
+  "contenido.md",
+  "creacion.md",
+
+  "que-es/que.md",
+  "que-es/framework.md",
+
+  [
+    "que-es/html.md",
+    "que-es/css.md",
+    "que-es/js.md"
+  ],
+
+  [
+    "que-es/responsive.md",
+    {
+      "filename": "que-es/responsive-xs.md",
+      "attr": { "data-background": "/img/responsive-xs.png" }
+    },
+    {
+      "filename": "que-es/responsive-lg.md",
+      "attr": { "data-background": "/img/responsive-lg.png" }
+    },
+    {
+      "filename": "que-es/responsive-gif.md",
+      "attr": { "data-background": "/img/responsive.gif" }
+    }
+  ],
+
+  "que-es/movil-primero.md",
+  "que-aporta/que-aporta.md",
+
+  [
+    "que-aporta/grid.md",
+    {
+      "filename": "que-aporta/grid-systems.md",
+      "attr": { "data-background": "/img/grid-system-wiki.png" }
+    }
+  ],
+
+  [
+    "que-aporta/formularios-botones.md",
+    "que-aporta/formulario-imgs-noBS.md",
+    "que-aporta/formulario-imgs-BS.md"
+  ],
+
+  [
+    "bs-ejemplos/in-the-wild.md",
+    "bs-ejemplos/personal.md"
+  ],
+
+  [
+    "uso/uso.md",
+    "uso/base.html",
+    "uso/demo.md"
+  ],
+
+  "gracias.md",
+  "enlaces.md"
 ]
