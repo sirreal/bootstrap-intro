@@ -1,10 +1,10 @@
 # Responsive
 
-Diseño responsivo se adapta la experiencia al tamaño del dispositivo.
+Experiencia adaptada al dispositivo
 
-Se utilizan una serie de tamaños para enfocar la experiencia a formatos concretos.
+Diseños "escalonados"
 
-Existen alternativas como diseño con % o servir páginas diferentes móvil/sobremesa.
+Una (de muchas) soluciones al "problema móvil"
 
 Note:
 XS

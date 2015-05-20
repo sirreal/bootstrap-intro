@@ -6,9 +6,12 @@ Fácil con Bootstrap
 
 12 columnas responsivas
 
-[Columnas](/ex/gridlayout.html)
+<small>
+  [Columnas](/ex/gridlayout.html)
+  -
+  [Ejemplo](/ex/gridsample.html)
+</small>
 
-[Ejemplo](/ex/gridsample.html)
 
 Note:
 Flexbox soon

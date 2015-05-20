@@ -22,9 +22,10 @@
     "que-aporta/que-aporta.md",
     "que-aporta/grid.md",
     {
-      "attr": { "data-background": "/img/grids.png" }
+      "filename": "que-aporta/grid-systems.md",
+      "attr": { "data-background": "/img/grid-system-wiki.png" }
     },
-    "que-aporta/form-button.md"
+    "que-aporta/formularios-botones.md"
   ],
   [
     "bs-ejemplos/in-the-wild.md",

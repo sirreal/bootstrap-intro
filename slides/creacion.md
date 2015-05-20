@@ -1,4 +1,4 @@
-## Creación
+## Creación y desarrollo
 
 [@mdo](https://twitter.com/mdo) y [@fat](https://twitter.com/fat) en Twitter
 

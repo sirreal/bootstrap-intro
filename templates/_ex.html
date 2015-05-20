@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= title %></title>
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideStylesheet" disabled>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" id="jsBootstrapCSS">
+    <link rel="stylesheet" href="/css/pesticide.min.css" id="jsPesticideCSS" disabled>
     <!-- <link rel="stylesheet" href="/css/gcp/desert.css"> -->
   </head>
   <body>
@@ -16,7 +16,8 @@
         .no-pesticide, .no-pesticide * { outline: 0 !important; }
       </style>
       <hr>
-      <a class="btn btn-info" id="jsPesticideOn">Pesticide</a>
+      <button class="btn btn-danger" id="jsPesticideToggle" type="button">Pesticide <span class="glyphicon glyphicon-off"></span></button>
+      <button class="btn btn-primary" id="jsBootstrapToggle" type="button">Bootstrap <span class="glyphicon glyphicon-off"></span></button>
       <pre class="prettyprint lang-html"><%= escapedContent %></pre>
     </div>
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
@@ -24,8 +25,12 @@
     <script src="/js/gcp/run_prettify.js"></script>
     <script src="/bower_components/holderjs/holder.min.js"></script>
     <script>
-      jQuery('#jsPesticideOn').on('click', function() {
-        var ss = jQuery('#jsPesticideStylesheet');
+      jQuery('#jsPesticideToggle').on('click', function() {
+        var ss = jQuery('#jsPesticideCSS');
+        ss.attr('disabled', !ss.attr('disabled'));
+      });
+      jQuery('#jsBootstrapToggle').on('click', function() {
+        var ss = jQuery('#jsBootstrapCSS');
         ss.attr('disabled', !ss.attr('disabled'));
       });
     </script>

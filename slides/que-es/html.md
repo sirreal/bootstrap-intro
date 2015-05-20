@@ -2,9 +2,13 @@
 
 ```html
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+  </head>
   <body>
     <h1>
-      HTML es el CONTENIDO SEMÁNTICO de una página.
+      Contenido SEMÁNTICO de una página
     </h1>
   </body>
 </html>
