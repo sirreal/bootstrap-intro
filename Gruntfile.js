@@ -66,6 +66,7 @@ module.exports = function(grunt) {
               'slides/**',
               'bower_components/**',
               'js/**',
+              'font/**',
               'css/*.css',
               'img/**',
               'ex/**'
