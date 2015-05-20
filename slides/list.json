@@ -17,15 +17,15 @@
     "que-es/responsive.md",
     {
       "filename": "que-es/responsive-xs.md",
-      "attr": { "data-background": "/img/responsive-xs.png" }
+      "attr": { "data-background": "img/responsive-xs.png" }
     },
     {
       "filename": "que-es/responsive-lg.md",
-      "attr": { "data-background": "/img/responsive-lg.png" }
+      "attr": { "data-background": "img/responsive-lg.png" }
     },
     {
       "filename": "que-es/responsive-gif.md",
-      "attr": { "data-background": "/img/responsive.gif" }
+      "attr": { "data-background": "img/responsive.gif" }
     }
   ],
 
@@ -36,7 +36,7 @@
     "que-aporta/grid.md",
     {
       "filename": "que-aporta/grid-systems.md",
-      "attr": { "data-background": "/img/grid-system-wiki.png" }
+      "attr": { "data-background": "img/grid-system-wiki.png" }
     }
   ],
 
