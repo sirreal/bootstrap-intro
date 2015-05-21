@@ -2,7 +2,7 @@ module.exports = {
   // browser: ['google chrome'],
   // browser: ['google chrome canary'],
   port: 9090,
-  startPath: '/index.html',
+  // startPath: '/index.html',
   // proxy: 'localhost:8005',
   // reloadDelay: 1000,
   files: [

@@ -4,4 +4,4 @@ dist
 *.log
 ex
 .sass-cache
-index.html
+/index.html
